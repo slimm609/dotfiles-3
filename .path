@@ -1,0 +1,5 @@
+# Add Homebrew's bin folder to path
+PATH="$PATH:/usr/local/bin"
+
+# Init z https://github.com/rupa/z
+. ~/Development/Applications/z/z.sh

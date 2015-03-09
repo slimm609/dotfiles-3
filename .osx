@@ -1,3 +1,4 @@
+
 #!/usr/bin/env bash
 
 # ~/.osx — https://mths.be/osx
@@ -407,7 +408,7 @@ sudo mdutil -E / > /dev/null
 ###############################################################################
 
 # Install the Solarized Dark theme for iTerm
-open "${HOME}/init/Solarized Darcula.itermcolors"
+open "${HOME}/init/Solarized Dark.itermcolors"
 
 # Don’t display the annoying prompt when quitting iTerm
 defaults write com.googlecode.iterm2 PromptOnQuit -bool false
@@ -498,6 +499,19 @@ defaults write com.google.Chrome.canary DisablePrintPreview -bool true
 
 # Install Sublime Text settings
 cp -r init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Preferences.sublime-settings 2> /dev/null
+
+###############################################################################
+# Pip                                                                         #
+###############################################################################
+
+# Download Pip installation file
+wget https://bootstrap.pypa.io/get-pip.py
+
+# Execute the installation file
+python get-pip.py
+
+# Remove the installation file after installing
+rm -f get-pip.py
 
 ###############################################################################
 # Kill affected applications                                                  #
