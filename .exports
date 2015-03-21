@@ -19,3 +19,7 @@ export MANPAGER='less -X';
 
 # Always enable colored `grep` output.
 export GREP_OPTIONS='--color=auto';
+
+# These are used for Trello's CLI gem
+export TRELLO_DEVELOPER_PUBLIC_KEY=32c647a47bc0ceb6dbfaf23a786d30b5
+export TRELLO_MEMBER_TOKEN=164ee2be2f4c7646833b080704f88f917e284bd83fa85805ac8d506c6c095d0a

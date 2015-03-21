@@ -4,3 +4,9 @@ alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup
 # Show/hide hidden files in Finder
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
 alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+
+# Alias Github's Hub to Git
+alias git="hub"
+## Aliases for ConnectSB's Profile2Connect
+alias mrun="meteor --settings ../config/development/settings.json"
+alias mtest="meteor --test --settings ../config/test/settings.json"

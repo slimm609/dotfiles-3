@@ -55,7 +55,10 @@ brew install git
 brew install speedtest_cli
 brew install zopfli
 brew install pigz
-
+brew install ack
+brew install hub
+brew install ssh-copy-id
+brew install mackup
 
 # Install Node.js. Note: this installs `npm` too, using the recommended
 # installation method.
