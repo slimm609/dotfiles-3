@@ -65,6 +65,7 @@ brew install mackup
 brew install node
 
 # Install applications through Brew cask
+brew tap caskroom/versions
 brew cask install dash
 brew cask install spectacle
 brew cask install flux
@@ -72,9 +73,10 @@ brew cask install dropbox
 brew cask install google-chrome
 brew cask install google-drive
 brew cask install spotify
-brew cask install sublime-text
+brew cask install atom
 brew cask install virtualbox
 brew cask install vlc
+brew cask install hammerspoon
 
 # Remove outdated versions from the cellar.
 brew cleanup

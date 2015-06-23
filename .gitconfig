@@ -23,3 +23,19 @@
   untracked = cyan
 [credential]
   helper = osxkeychain
+[alias]
+	c = clone
+	co = checkout
+	ec = config --global -e
+	up = !git pull --rebase --prune $@ && git submodule update --init --recursive
+	cob = checkout -b
+	cm = !git -A && git commit -m
+	save = !git add -A && git commit -m 'SAVEPOINT'
+	wip = commit -am "WIP"
+	undo = reset HEAD~1 --mixed
+	wipe = !git add -A && git commit -qm 'WIPE SAVEPOINT' && git reset HEAD~1 --hard
+	l = log --graph --decorate --pretty=oneline --abbrev-commit
+[branch]
+	autosetuprebase = always
+[apply]
+	whitespace = warn
