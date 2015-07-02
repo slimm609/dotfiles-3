@@ -1,2 +1,13 @@
+# Source prezto
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+fi
+
 # Add Homebrew's bin folder to path
 PATH="$PATH:/usr/local/bin"
+
+# Add RVM to PATH for scripting
+PATH="$PATH:$HOME/.rvm/bin
+
+# Load RVM into shell session
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"

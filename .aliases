@@ -7,6 +7,3 @@ alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && kil
 
 # Alias Github's Hub to Git
 eval "$(hub alias -s)"
-## Aliases for ConnectSB's Profile2Connect
-alias mrun="meteor --settings ../config/development/settings.json"
-alias mtest="meteor --test --settings ../config/test/settings.json"
