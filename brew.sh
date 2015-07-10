@@ -52,13 +52,16 @@ brew install woff2
 
 # Install other useful modules
 brew install git
-brew install speedtest_cli
 brew install zopfli
 brew install pigz
+brew install gzip
+brew install speedtest_cli
 brew install ack
 brew install hub
 brew install ssh-copy-id
 brew install mackup
+brew install android-sdk
+brew install unar
 
 # Install Node.js. Note: this installs `npm` too, using the recommended
 # installation method.
@@ -76,7 +79,12 @@ brew cask install spotify
 brew cask install atom
 brew cask install virtualbox
 brew cask install vlc
-brew cask install hammerspoon
+brew cask install rescuetime
+brew cask install duet
+brew cask install the-unarchiver
+brew cask install whiskey
+brew cask install evernote
+brew cask install genymotion
 
 # Remove outdated versions from the cellar.
 brew cleanup
