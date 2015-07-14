@@ -34,6 +34,9 @@ brew install gnu-sed --with-default-names
 brew install bash
 brew install bash-completion
 
+# Install ZSH
+brew install zsh
+
 # Install `wget` with IRI support.
 brew install wget --with-iri
 
@@ -63,9 +66,10 @@ brew install mackup
 brew install android-sdk
 brew install unar
 
-# Install Node.js. Note: this installs `npm` too, using the recommended
-# installation method.
-brew install node
+# Install Node.js and fix a common problem with Node's brew: https://gist.github.com/DanHerbert/9520689
+brew install node --without-npm
+echo prefix=~/.node >> ~/.npmrc
+curl -L https://www.npmjs.com/install.sh | sh
 
 # Install applications through Brew cask
 brew tap caskroom/versions
@@ -84,7 +88,6 @@ brew cask install duet
 brew cask install the-unarchiver
 brew cask install whiskey
 brew cask install evernote
-brew cask install genymotion
 
 # Remove outdated versions from the cellar.
 brew cleanup
