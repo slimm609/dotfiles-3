@@ -76,8 +76,6 @@ brew tap caskroom/versions
 brew cask install dash
 brew cask install spectacle
 brew cask install flux
-brew cask install dropbox
-brew cask install google-chrome
 brew cask install google-drive
 brew cask install spotify
 brew cask install atom
