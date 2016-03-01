@@ -1,6 +1,16 @@
 # Make vim the default editor.
 export EDITOR='vim';
 
+# Enable persistent REPL history for `node`.
+export NODE_REPL_HISTORY=~/.node_history;
+# Allow 32³ entries; the default is 1000.
+export NODE_REPL_HISTORY_SIZE='32768';
+# Use sloppy mode by default, matching web browsers.
+export NODE_REPL_MODE='sloppy';
+
+# Make Python use UTF-8 encoding for output to stdin, stdout, and stderr.
+export PYTHONIOENCODING='UTF-8';
+
 # Increase Bash history size. Allow 32³ entries; the default is 500.
 export HISTSIZE='32768';
 export HISTFILESIZE="${HISTSIZE}";
@@ -23,5 +33,3 @@ export GREP_OPTIONS='--color=auto';
 # These are used for Trello's CLI gem
 export TRELLO_DEVELOPER_PUBLIC_KEY=32c647a47bc0ceb6dbfaf23a786d30b5
 export TRELLO_MEMBER_TOKEN=164ee2be2f4c7646833b080704f88f917e284bd83fa85805ac8d506c6c095d0a
-
-export ANDROID_HOME=/usr/local/opt/android-sdk
