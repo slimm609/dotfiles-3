@@ -6,3 +6,9 @@ PATH="$PATH:$HOME/.rvm/bin"
 
 # Load RVM into shell session
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+# Add node path
+PATH="$HOME/.node/bin:$PATH"
+
+# Add anaconda to shell session
+PATH="/Users/joeykaan/anaconda3/bin:$PATH"
