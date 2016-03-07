@@ -48,6 +48,12 @@ brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 brew install homebrew/php/php56 --with-gmp
 
+# Install tools needed for TermPDF.
+brew install poppler
+brew install pdfgrep
+brew install djvulibre
+brew install selecta
+
 # Install font tools.
 brew tap bramstein/webfonttools
 brew install sfnt2woff
