@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-cd "$(dirname "${BASH_SOURCE}")";
-
 git pull origin master;
 
 git submodule foreach git pull origin master;
@@ -20,7 +18,7 @@ rm -rf imgcat;
 cp utils/termpdf/termpdf ${HOME}/bin/termpdf;
 
 function doIt() {
-	rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" \
+	rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" --exclude ".gitmodules" \
 		--exclude "README.md" --exclude "LICENSE-MIT.txt" --exclude "utils/" --exclude "install-prezto.zsh" --exclude "install-deps.sh" --exclude "brew.sh"  -avh --no-perms . ~;
 	source ~/.bash_profile;
 }
