@@ -48,12 +48,6 @@ brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 brew install homebrew/php/php56 --with-gmp
 
-# Install tools needed for TermPDF.
-brew install poppler
-brew install pdfgrep
-brew install djvulibre
-brew install selecta
-
 # Install font tools.
 brew tap bramstein/webfonttools
 brew install sfnt2woff
@@ -92,7 +86,6 @@ brew install dark-mode
 
 #brew install exiv2
 brew install git
-brew install git-lfs
 brew install imagemagick --with-webp
 brew install lua
 brew install lynx
@@ -104,13 +97,13 @@ brew install ack
 brew install hub
 brew install ssh-copy-id
 brew install mackup
-brew install android-sdk
 brew install unar
 brew install ssh-copy-id
 brew install testssl
 brew install tree
 brew install webkit2png
 brew install zopfli
+brew install reattach-to-user-namespace
 
 # Install Node.js and fix a common problem with Node's brew: https://gist.github.com/DanHerbert/9520689
 brew install node --without-npm
@@ -119,7 +112,6 @@ curl -L https://www.npmjs.com/install.sh | sh
 
 # Install applications through Brew cask
 brew tap caskroom/versions
-brew cask install dash
 brew cask install spectacle
 brew cask install flux
 brew cask install google-drive
@@ -130,8 +122,8 @@ brew cask install vlc
 brew cask install rescuetime
 brew cask install duet
 brew cask install the-unarchiver
-brew cask install whiskey
 brew cask install evernote
+brew cask install alfred
 
 # Remove outdated versions from the cellar.
 brew cleanup
