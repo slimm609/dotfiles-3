@@ -103,6 +103,7 @@ brew install testssl
 brew install tree
 brew install webkit2png
 brew install zopfli
+brew install reattach-to-user-namespace
 
 # Install Node.js and fix a common problem with Node's brew: https://gist.github.com/DanHerbert/9520689
 brew install node --without-npm
