@@ -14,9 +14,6 @@ chmod +x imgcat;
 mkdir -p ${HOME}/bin && cp imgcat ${HOME}/bin/imgcat;
 rm -rf imgcat;
 
-# Copy TermPDF to ~/bin folder
-cp utils/termpdf/termpdf ${HOME}/bin/termpdf;
-
 function doIt() {
 	rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" --exclude ".gitmodules" \
 		--exclude "README.md" --exclude "LICENSE-MIT.txt" --exclude "utils/" --exclude "install-prezto.zsh" --exclude "install-deps.sh" --exclude "brew.sh"  -avh --no-perms . ~;
