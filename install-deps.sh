@@ -17,5 +17,8 @@ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB8
 # Install trash, a safer alternative to 'rm'
 npm install -g trash
 
+# Fancier output of the git diff command
+npm install -g diff-so-fancy
+
 # Install prezto, my framework of choice for ZSH
 ./install-prezto.zsh
