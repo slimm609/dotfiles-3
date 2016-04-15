@@ -12,3 +12,6 @@ PATH="$HOME/.node/bin:$PATH"
 
 # Add anaconda to shell session
 PATH="/Users/joeykaan/anaconda3/bin:$PATH"
+
+# Add local bin folder to path
+PATH="$HOME/bin:$PATH"
