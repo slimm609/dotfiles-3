@@ -11,7 +11,7 @@ PATH="$PATH:$HOME/.rvm/bin"
 PATH="$HOME/.node/bin:$PATH"
 
 # Add anaconda to shell session
-PATH="/Users/joeykaan/anaconda3/bin:$PATH"
+PATH="$HOME/anaconda3/bin:$PATH"
 
 # Add local bin folder to path
 PATH="$HOME/bin:$PATH"
