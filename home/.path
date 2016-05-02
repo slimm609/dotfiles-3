@@ -15,3 +15,6 @@ PATH="/Users/joeykaan/anaconda3/bin:$PATH"
 
 # Add local bin folder to path
 PATH="$HOME/bin:$PATH"
+
+# Add composer bin folder to path
+PATH="$HOME/.composer/vendor/bin:$PATH"

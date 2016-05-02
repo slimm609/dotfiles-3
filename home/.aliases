@@ -145,3 +145,6 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
+
+# Alias for docker container I'm using during ML internship
+alias lamachine="docker run -p 8080:80 -t -i -v ~/Development/IE/LaMachine/dev:/usr/src/LaMachine/dev joeykaan/lamachine:v1.0.1"
