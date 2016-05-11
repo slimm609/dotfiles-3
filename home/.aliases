@@ -147,4 +147,7 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 alias reload="exec $SHELL -l"
 
 # Alias for docker container I'm using during ML internship
-alias lamachine="docker run -p 8080:80 -t -i -v ~/Development/IE/LaMachine/dev:/usr/src/LaMachine/dev joeykaan/lamachine:v1.0.1"
+alias lamachine="docker run -p 8080:80 -p 5000:5000 -t -i -v ~/Development/IE/LaMachine/dev:/usr/src/LaMachine/dev joeykaan/lamachine:v1.0.1"
+
+# Alias which removes images with no tag
+alias rmnt="docker rmi $(docker images | grep '^<none>' | awk '{print $3}')"
