@@ -151,3 +151,8 @@ alias lamachine="docker run -p 8080:80 -p 5000:5000 -t -i -v ~/Development/IE/La
 
 # Alias which removes images with no tag
 alias rmnt="docker rmi $(docker images | grep '^<none>' | awk '{print $3}')"
+
+alias containerclean="docker stop $(docker ps -aq); docker rm $(docker ps -aq)"
+alias imagesclean="docker stop $(docker ps -aq); docker rm $(docker ps -aq); docker rmi $(docker images -aq)"
+
+
