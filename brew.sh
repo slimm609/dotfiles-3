@@ -113,6 +113,10 @@ brew install node --without-npm
 echo prefix=~/.node >> ~/.npmrc
 curl -L https://www.npmjs.com/install.sh | sh
 
+# Install Python and Pip
+brew install python
+brew install pip
+
 # Install applications through Brew cask
 brew tap caskroom/versions
 brew cask install spectacle
