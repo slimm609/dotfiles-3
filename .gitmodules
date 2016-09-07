@@ -1,6 +1,3 @@
 [submodule "utils/dracula-theme"]
 	path = utils/dracula-theme
 	url = git@github.com:zenorocha/dracula-theme.git
-[submodule "utils/tmux-powerline"]
-	path = utils/tmux-powerline
-	url = git@github.com:erikw/tmux-powerline.git
