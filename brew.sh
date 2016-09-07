@@ -106,6 +106,7 @@ brew install zopfli
 brew install reattach-to-user-namespace
 brew install gpg
 brew install git-extras
+brew install diff-so-fancy
 
 # Install Node.js and fix a common problem with Node's brew: https://gist.github.com/DanHerbert/9520689
 brew install node --without-npm
