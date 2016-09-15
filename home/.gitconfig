@@ -49,8 +49,6 @@
   contribs = shortlog -sn
   wow = log --all --graph --decorate --oneline --simplify-by-decoration
   lines = "diff --shortstat '@{0 day ago}'"
-[branch]
-  autosetuprebase = always
 [apply]
   whitespace = warn
 [commit]
@@ -98,3 +96,5 @@
   insteadOf = "https://github.com/"
   pushInsteadOf = "https://github.com/"
   pushInsteadOf = "git://github.com/"
+[pull]
+	rebase = true
