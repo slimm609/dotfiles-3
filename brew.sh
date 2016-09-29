@@ -124,7 +124,6 @@ brew cask install flux
 brew cask install google-drive
 brew cask install spotify
 brew cask install atom
-brew cask install virtualbox
 brew cask install vlc
 brew cask install rescuetime
 brew cask install duet
