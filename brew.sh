@@ -123,6 +123,7 @@ brew cask install spectacle
 brew cask install flux
 brew cask install google-drive
 brew cask install spotify
+brew install virtualbox
 brew cask install atom
 brew cask install vlc
 brew cask install rescuetime
