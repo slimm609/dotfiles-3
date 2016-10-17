@@ -34,6 +34,7 @@
   helper = osxkeychain
 [alias]
   c = clone
+  p = push
   pf = push --force-with-lease
   co = checkout
   ec = config --global -e
