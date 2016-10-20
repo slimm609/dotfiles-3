@@ -7,7 +7,10 @@ for file in $SCRIPT_DIR/git-hooks/*; do
   HOOKNAME=$(basename $file | sed -e 's/_/\n/g' | sed -n 2p)
   if [ "$CURRENT_DIR" == "$DIRNAME" ]; then
     # TODO: Check if this covers all edge cases too.
-    echo $(cp $file "$PWD/.git/hooks/$HOOKNAME")
+    echo $(cp -n -v $file "$PWD/.git/hooks/$HOOKNAME")
+    exit 0
   fi
 done
 
+echo "No Git hook found for directory: $CURRENT_DIR"
+exit 1
