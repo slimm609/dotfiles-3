@@ -33,6 +33,7 @@
 [credential]
   helper = osxkeychain
 [alias]
+  s = status -s
   c = clone
   p = push
   pf = push --force-with-lease
