@@ -100,3 +100,5 @@
   pushInsteadOf = "git://github.com/"
 [pull]
 	rebase = true
+[rebase]
+	autosquash = true
