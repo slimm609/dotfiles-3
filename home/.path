@@ -1,17 +1,8 @@
 # Add Homebrew's bin folder to path
 PATH="$PATH:/usr/local/bin"
 
-# Add RVM to PATH for scripting
-PATH="$PATH:$HOME/.rvm/bin"
-
-# Load RVM into shell session
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-
 # Add node path
 PATH="$HOME/.node/bin:$PATH"
-
-# Add local bin folder to path
-PATH="$HOME/bin:$PATH"
 
 # Add composer bin folder to path
 PATH="$HOME/.composer/vendor/bin:$PATH"
