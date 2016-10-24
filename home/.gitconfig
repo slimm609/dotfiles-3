@@ -33,6 +33,9 @@
 [credential]
   helper = osxkeychain
 [alias]
+  b = branch
+  com = commit
+  a = add
   s = status -s
   c = clone
   p = push
@@ -41,16 +44,11 @@
   ec = config --global -e
   up = !git pull --rebase --prune $@ && git submodule update --init --recursive
   cob = checkout -b
-  cm = !git -A && git commit -m
-  save = !git add -A && git commit -m 'SAVEPOINT'
   wip = commit -am "WIP"
   undo = reset HEAD~1 --mixed
-  wipe = !git add -A && git commit -qm 'WIPE SAVEPOINT' && git reset HEAD~1 --hard
   l = log --graph --decorate --pretty=oneline --abbrev-commit
   lN = "!f() { git log -$1 --pretty --oneline; }; f"
-  contribs = shortlog -sn
   wow = log --all --graph --decorate --oneline --simplify-by-decoration
-  lines = "diff --shortstat '@{0 day ago}'"
 [apply]
   whitespace = warn
 [commit]
