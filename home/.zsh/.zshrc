@@ -22,7 +22,7 @@ compinit
 # End of lines added by compinstall
 zstyle ':completion:*:*:git:*' user-commands fixup:'Create a fixup commit'
 
-. /Users/joeykaan/Development/Applications/z/z.sh
+. ${HOME}/Development/Applications/z/z.sh
 
 for file in ~/.{path,exports,aliases,functions,extra}; do
   [ -r "$file" ] && [ -f "$file" ] && source "$file";
