@@ -4,3 +4,6 @@
 [submodule "utils/FiraCode"]
 	path = utils/FiraCode
 	url = git@github.com:tonsky/FiraCode.git
+[submodule "home/.zsh/.zim"]
+	path = home/.zsh/.zim
+	url = git://github.com/Eriner/zim.git
