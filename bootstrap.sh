@@ -1,6 +1,16 @@
 #!/usr/bin/env bash
-
 git pull origin master;
+
+# At some point should use the $ZDOTDIR variable, but apparently if this script is run with Bash the variable isn't set.
+ZIMDIR="$HOME/.zsh/.zim"
+
+# Copy the joey.zsh-theme to the $ZIMDIR/modules/prompt/functions folder so it can be used as a custom prompt
+# File needs to be of the format prompt_*_setup.
+cp joey.zsh-theme "$ZIMDIR/modules/prompt/functions/prompt_joey_setup"
+
+if [ $? -eq 0 ]; then
+  echo "Copied joey.zsh-theme to prompts folder"
+fi
 
 function doIt() {
 	rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" --exclude ".gitmodules" \
