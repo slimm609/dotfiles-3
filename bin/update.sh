@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 sudo softwareupdate -i -a
 brew update
 brew upgrade
@@ -8,5 +9,10 @@ gem update --system
 gem update
 
 Z_DIR=~/Development/Applications/z
+echo "Updating Z"
 git --git-dir=${Z_DIR}/.git --work-tree=$Z_DIR pull
-zmanage update
+
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+ZIM_DIR=${SCRIPT_DIR}/../home/.zsh/.zim
+echo "Updating Zim"
+git --git-dir=${ZIM_DIR}/.git --work-tree=$ZIM_DIR pull
