@@ -3,11 +3,11 @@ set nocompatible
 
 call plug#begin('~/.vim/plugged')
 
+Plug 'tpope/vim-sensible'
 Plug 'scrooloose/syntastic'
 Plug 'Raimondi/delimitMate'
 Plug 'vim-airline/vim-airline'
 Plug 'altercation/vim-colors-solarized'
-Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'xolox/vim-misc'
 Plug 'sheerun/vim-polyglot'
@@ -15,22 +15,11 @@ Plug 'flazz/vim-colorschemes'
 
 call plug#end()
 
-syntax on
-filetype plugin indent on
-
 " --- General settings ---
-set backspace=indent,eol,start
-set ruler " show cursor position all the time
 set number " line numbers
 set showcmd " display incomplete commands
-set incsearch " do incremental searching
 set hlsearch " switch on highlighting the last used search pattern
-set history=1000 " keep 1000 lines of CLI history
 set linebreak " wrap lines on 'word' boundaries
-set scrolloff=3 " don't let the cursor touch the edge of the viewport
-set splitright " vertical splits use right half of the screen
-set timeoutlen=100 " lower ^[ timeout"
-set fillchars=fold:\ , " get rid of obnoxious '-' characters in folds
 set tildeop " use ~ to toggle case as an operator, not a motion
 set mouse=a " enable the mouse
 set clipboard=unnamed " Yank and paste using y and p in vim
