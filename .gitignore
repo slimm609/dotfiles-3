@@ -16,3 +16,7 @@ Thumbs.db
 # Compiled files by ZSH
 *.zwc
 .zcompdump
+.zcompdump.*
+
+# Folder that vim-plug installs the plugins in.
+plugged

@@ -1,7 +1,20 @@
 " Gotta be first
 set nocompatible
 
-execute pathogen#infect()
+call plug#begin('~/.vim/plugged')
+
+Plug 'scrooloose/syntastic'
+Plug 'Raimondi/delimitMate'
+Plug 'vim-airline/vim-airline'
+Plug 'altercation/vim-colors-solarized'
+Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
+Plug 'xolox/vim-misc'
+Plug 'sheerun/vim-polyglot'
+Plug 'flazz/vim-colorschemes'
+
+call plug#end()
+
 syntax on
 filetype plugin indent on
 
@@ -27,9 +40,6 @@ set expandtab " Expand tabs into spaces
 set tabstop=2 " default to 2 spaces for a hard tab
 set softtabstop=2 " default to 2 spaces for the soft tab
 set shiftwidth=2 " for when <TAB> is pressed at the beginning of a line
-
-" Alias sublime-settings to json so the syntax highlighting is correct
-au! BufRead,BufNewFile *.sublime-settings setfiletype json
 
 " --- Plugin-specific settings ---
 " --- altercation/vim-colors-solarized settings ---
