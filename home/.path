@@ -6,3 +6,6 @@ PATH="$HOME/.node/bin:$PATH"
 
 # Add composer bin folder to path
 PATH="$HOME/.composer/vendor/bin:$PATH"
+
+# Add coreutils 
+PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
