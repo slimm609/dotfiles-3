@@ -52,6 +52,9 @@ curl -L https://www.npmjs.com/install.sh | sh
 brew install python
 brew install pip
 
+# Install phpbrew
+brew install phpbrew
+
 # Install applications through Brew cask
 brew tap caskroom/versions
 brew cask install spectacle
