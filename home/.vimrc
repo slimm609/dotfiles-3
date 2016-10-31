@@ -7,6 +7,7 @@ Plug 'tpope/vim-sensible'
 Plug 'scrooloose/syntastic'
 Plug 'Raimondi/delimitMate'
 Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'airblade/vim-gitgutter'
 Plug 'xolox/vim-misc'
 Plug 'sheerun/vim-polyglot'
@@ -37,6 +38,9 @@ colorscheme twilight256
 " --- bling/vim-airline settings ---
 " Always show statusbar
 set laststatus=2
+
+" Change airline theme
+let g:airline_theme='wombat'
 
 " Fancy arrow symbols
 let g:airline_powerline_fonts=1
