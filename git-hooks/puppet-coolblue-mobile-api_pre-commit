@@ -11,11 +11,11 @@
 # Probably if we changed something we need to up the version in metadata.json
 VER_UPDATED=false
 
-git diff --cached --name-only | while read line ; do
+while read line ; do
   if [ "$line" == "metadata.json" ]; then
     VER_UPDATED=true
   fi
-done
+done <<< "$(git diff --cached --name-only)"
 
 if [ "$VER_UPDATED" = false ]; then
   echo "Metadata.json file hasn't been updated."

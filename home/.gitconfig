@@ -33,6 +33,7 @@
 [credential]
   helper = osxkeychain
 [alias]
+  up = "!f() { git fetch --all && git pull $1 $2 --autostash; }; f"
   b = branch 
   com = commit
   a = add
@@ -42,7 +43,6 @@
   pf = push --force-with-lease
   co = checkout
   ec = config --global -e
-  up = !git pull --rebase --prune $@ && git submodule update --init --recursive
   cob = checkout -b
   wip = commit -am "WIP"
   undo = reset HEAD~1 --mixed
