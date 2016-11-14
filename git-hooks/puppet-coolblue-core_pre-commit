@@ -8,4 +8,6 @@
 # To enable this hook, rename this file to "pre-commit".
 make check_all
 
+git add Puppetfile.lock
+
 exit $?
