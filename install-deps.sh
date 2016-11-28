@@ -11,5 +11,9 @@ curl -sSL https://get.rvm.io | bash -s stable --ruby
 # Install trash, a safer alternative to 'rm'
 npm install -g trash-cli
 
+# Install NPM tools for a sane JS env.
+# https://dev.to/corgibytes/setting-up-a-minimal-yet-useful-javascript-dev-environment
+npm i -g ava chokidar-cli standard
+
 # Install ZSH config framework
 ./install-zim.zsh
