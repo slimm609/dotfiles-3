@@ -173,3 +173,8 @@ extract () {
    echo "'$1' is not a valid file to extract"
  fi
 }
+
+function gravatar() {
+  curl "http://gravatar.com/avatar/$(md5 -q -s $1)?s=${2:-200}" > $1.png
+  echo "Gravatar saved in $1.png"
+}
