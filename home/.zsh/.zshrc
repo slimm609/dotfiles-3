@@ -8,6 +8,10 @@
 if [[ -s ${ZDOTDIR:-${HOME}}/.zim/init.zsh ]]; then
   source ${ZDOTDIR:-${HOME}}/.zim/init.zsh
 fi
+#setopt prompt_subst;
+#zmodload zsh/datetime;
+#PS4='+[$EPOCHREALTIME]%N:%i> ';
+#set -x
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=1000
@@ -18,11 +22,14 @@ bindkey -e
 zstyle :compinstall filename '/Users/joeykaan/.zshrc'
 
 autoload -Uz compinit
-compinit
+compinit -D
+#zmodload zsh/zprof
 # End of lines added by compinstall
-zstyle ':completion:*:*:git:*' user-commands fixup:'Create a fixup commit'
+#zstyle ':completion:*:*:git:*' user-commands fixup:'Create a fixup commit'
 
-. ${HOME}/Development/Applications/z/z.sh
+if [[ -s ${HOME}/Development/Applications/z/z.sh ]]; then
+  . ${HOME}/Development/Applications/z/z.sh
+fi
 
 for file in ~/.{path,exports,aliases,functions,extra}; do
   [ -r "$file" ] && [ -f "$file" ] && source "$file";
