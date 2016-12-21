@@ -23,7 +23,6 @@ zstyle :compinstall filename '/Users/joeykaan/.zshrc'
 
 autoload -Uz compinit
 compinit -D
-#zmodload zsh/zprof
 # End of lines added by compinstall
 #zstyle ':completion:*:*:git:*' user-commands fixup:'Create a fixup commit'
 
@@ -36,3 +35,8 @@ for file in ~/.{path,exports,aliases,functions,extra}; do
 done;
 
 [[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
+
+# Start tmux
+if [[ -z "$TMUX" ]]; then
+  tmux attach -t Coolblue || tmux new -s Coolblue
+fi
