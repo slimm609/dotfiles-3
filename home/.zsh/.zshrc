@@ -36,9 +36,6 @@ done;
 
 [[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
 
-export NVM_DIR="/Users/joey/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" 
-
 # Start tmux
 if [[ -z "$TMUX" ]]; then
   tmux attach -t Coolblue || tmux new -s Coolblue
