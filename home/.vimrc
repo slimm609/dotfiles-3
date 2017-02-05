@@ -4,7 +4,7 @@ set nocompatible
 call plug#begin('~/.vim/plugged')
 
 Plug 'tpope/vim-sensible'
-Plug 'scrooloose/syntastic'
+Plug 'w0rp/ale'
 Plug 'Raimondi/delimitMate'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -51,13 +51,9 @@ let g:airline_detect_paste=1
 " Show airline for tabs too
 let g:airline#extensions#tabline#enabled=1
 
-" --- scrooloose/syntactic settings ---
-let g:syntactic_error_symbol = '✘'
-let g:syntactic_warning_symbol = "▲"
-augroup mySyntactic
-	au!
-	au FileType tex let b:syntactic_mode = "passive"
-augroup END
+" --- w0rp/ale settings ---
+let g:ale_sign_error = '✘'
+let g:ale_sign_warning = "▲"
 
 " --- airblade/vim-gitgutter settings ---
 "  Required after having changed the colorscheme
