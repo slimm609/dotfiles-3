@@ -17,3 +17,6 @@ npm i -g ava chokidar-cli standard
 
 # Install ZSH config framework
 ./install-zim.zsh
+
+# Install update_xcode_plugins (removes the xcode signing so that Alcatraz can be used for Xcode 8)
+gem install update_xcode_plugins
