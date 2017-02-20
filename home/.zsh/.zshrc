@@ -20,9 +20,6 @@ bindkey -e
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
 zstyle :compinstall filename '$ZDOTDIR/.zshrc'
-
-autoload -Uz compinit
-compinit -D
 # End of lines added by compinstall
 #zstyle ':completion:*:*:git:*' user-commands fixup:'Create a fixup commit'
 
