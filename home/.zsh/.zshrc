@@ -29,8 +29,3 @@ done;
 
 # Load RVM
 source $HOME/.rvm/scripts/rvm
-
-# Start tmux
-#if [[ -z "$TMUX" ]]; then
-#  tmux attach -CC -t Coolblue || tmux new -CC -s Coolblue
-#fi
