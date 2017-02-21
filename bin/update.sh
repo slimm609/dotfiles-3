@@ -7,6 +7,7 @@ npm install npm -g
 npm update -g
 gem update --system
 gem update
+rvm get stable
 
 Z_DIR=~/Development/Applications/z
 echo "Updating Z"
