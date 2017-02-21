@@ -43,6 +43,7 @@ brew 'unixodbc'
 brew 'sqlite'
 brew 'gdbm'
 brew 'libyaml'
+brew 'gmp'
 # End of prerequisites
 brew 'homebrew/php/php70'
 brew 'homebrew/php/composer'

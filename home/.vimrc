@@ -12,6 +12,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'xolox/vim-misc'
 Plug 'sheerun/vim-polyglot'
 Plug 'flazz/vim-colorschemes'
+Plug 'rhysd/vim-color-spring-night'
 
 call plug#end()
 
@@ -32,15 +33,14 @@ set shiftwidth=2 " for when <TAB> is pressed at the beginning of a line
 
 " --- Plugin-specific settings ---
 " --- altercation/vim-colors-solarized settings ---
-set background=dark
-colorscheme twilight256
+colorscheme spring-night
 
 " --- bling/vim-airline settings ---
 " Always show statusbar
 set laststatus=2
 
 " Change airline theme
-let g:airline_theme='wombat'
+let g:airline_theme='spring_night'
 
 " Fancy arrow symbols
 let g:airline_powerline_fonts=1
