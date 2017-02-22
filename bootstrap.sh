@@ -13,7 +13,7 @@ if [ "$1" == "--force" -o "$1" == "-f" ]; then
 	doIt;
 elif [ "$1" == "--test" ]; then
   mkdir ~/dotfiles-test
-  rsync . ~/dotfiles-test
+  rsync -avh . ~/dotfiles-test
 else
 	read -p "This may overwrite existing files in your home directory. Are you sure? (y/n) " -n 1;
 	echo "";
