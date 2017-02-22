@@ -14,12 +14,3 @@ npm install -g trash-cli
 # Install NPM tools for a sane JS env.
 # https://dev.to/corgibytes/setting-up-a-minimal-yet-useful-javascript-dev-environment
 npm i -g ava chokidar-cli standard
-
-# Install ZSH config framework
-./install-zim.zsh
-
-# Install update_xcode_plugins (removes the xcode signing so that Alcatraz can be used for Xcode 8)
-gem install update_xcode_plugins
-
-# Install homesick (to manage my dotfiles)
-gem install homesick
