@@ -67,5 +67,3 @@ eval "$(hub alias -s)"
 # Alias very useful trash npm package to t
 alias t="trash"
 
-# Alias for loading rvm
-alias loadrvm='[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"'
