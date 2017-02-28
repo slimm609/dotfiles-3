@@ -12,6 +12,8 @@ Plug 'airblade/vim-gitgutter'
 Plug 'xolox/vim-misc'
 Plug 'sheerun/vim-polyglot'
 Plug 'flazz/vim-colorschemes'
+Plug 'junegunn/fzf', {'dir': '~/.fzf', 'do': './install -all'}
+Plug 'scrooloose/nerdtree'
 
 call plug#end()
 
