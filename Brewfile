@@ -19,7 +19,6 @@ brew 'git-fixup'
 brew 'httpie'
 brew 'hub'
 brew 'pinentry-mac'
-brew 'reattach-to-user-namespace'
 brew 'vim', args: ['with-override-system-vi']
 brew 'node', args: ['without-npm']
 brew 'yarn'
@@ -29,6 +28,7 @@ brew 'homebrew/dupes/grep'
 brew 'homebrew/dupes/openssh'
 brew 'homebrew/fuse/encfs'
 brew 'gnupg2'
+brew 'tig'
 # Prerequisites
 brew 'libpng'
 brew 'jpeg'
