@@ -49,7 +49,6 @@
   l = log --graph --decorate --pretty=oneline --abbrev-commit
   lN = "!f() { git log -$1 --pretty --oneline; }; f"
   wow = log --all --graph --decorate --oneline --simplify-by-decoration
-  updateRemoteSubmodules = git submodule update --remote --merge
 [apply]
   whitespace = warn
 [commit]
