@@ -12,3 +12,7 @@ PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 
 # Add .local bin folder
 PATH="$HOME/.local/bin:$PATH"
+
+# Add android tools to path
+PATH="$HOME/Library/Android/sdk/tools:$PATH"
+PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
