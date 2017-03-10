@@ -41,14 +41,10 @@
   c = clone
   p = push
   pf = push --force-with-lease
-  co = checkout
-  ec = config --global -e
-  cob = checkout -b
   wip = commit -am "WIP"
-  undo = reset HEAD~1 --mixed
   l = log --graph --decorate --pretty=oneline --abbrev-commit
-  lN = "!f() { git log -$1 --pretty --oneline; }; f"
-  wow = log --all --graph --decorate --oneline --simplify-by-decoration
+  cd = checkout
+  unstage = reset HEAD --
 [apply]
   whitespace = warn
 [commit]
