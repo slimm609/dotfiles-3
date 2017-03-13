@@ -32,3 +32,6 @@ export GREP_OPTIONS='--color=auto';
 
 # Set android home
 export ANDROID_HOME="${HOME}/Library/Android/sdk"
+
+# Set the root for virtualenvwrapper
+export WORKON_HOME="${HOME}/Development/VirtualEnvs"
