@@ -19,8 +19,6 @@ zstyle :compinstall filename '$ZDOTDIR/.zshrc'
 zstyle ':vcs_info:*' enable git
 # End of lines added by compinstall
 
-source /usr/local/bin/virtualenvwrapper.sh
-
 if [[ -s ${HOME}/Development/Applications/z/z.sh ]]; then
   . ${HOME}/Development/Applications/z/z.sh
 fi
