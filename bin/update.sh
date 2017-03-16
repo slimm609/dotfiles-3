@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 sudo softwareupdate -i -a
-brew bundle --file=../Brewfile
+brew bundle
 npm install npm -g
 npm update -g
 gem update --system
