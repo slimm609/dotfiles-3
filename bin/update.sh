@@ -14,7 +14,8 @@ git --git-dir=${Z_DIR}/.git --work-tree=$Z_DIR pull origin master
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 ZIM_DIR=${SCRIPT_DIR}/../home/.zsh/.zim
 echo "Updating Zim"
-git --git-dir=${ZIM_DIR}/.git --work-tree=$ZIM_DIR remote update -p
-git --git-dir=${ZIM_DIR}/.git --work-tree=$ZIM_DIR merge --ff-only @\{u\}
+cd ${ZIM_DIR}
+git remote update -p
+git merge --ff-only @\{u\}
 # Update zim submodules
-git --git-dir=${ZIM_DIR}/.git --work-tree=$ZIM_DIR submodule update --init --recursive
+git submodule update --init --recursive
