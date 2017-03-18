@@ -17,4 +17,4 @@ echo "Updating Zim"
 git --git-dir=${ZIM_DIR}/.git --work-tree=$ZIM_DIR remote update -p
 git --git-dir=${ZIM_DIR}/.git --work-tree=$ZIM_DIR merge --ff-only @\{u\}
 # Update zim submodules
-git --git-dir=${ZIM_DIR}/.git --work-tree=$ZIM_DIR submodule init --init --recursive
+git --git-dir=${ZIM_DIR}/.git --work-tree=$ZIM_DIR submodule update --init --recursive
