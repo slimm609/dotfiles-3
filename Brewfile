@@ -47,6 +47,8 @@ brew 'libyaml'
 brew 'gmp'
 brew 'openssl'
 brew 'lftp'
+brew 'tree'
+brew 'hugo'
 # End of prerequisites
 brew 'homebrew/php/composer'
 brew 'homebrew/php/php70'
