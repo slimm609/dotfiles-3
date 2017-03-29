@@ -51,6 +51,7 @@ brew 'openssl'
 brew 'lftp'
 brew 'tree'
 brew 'hugo'
+brew 'shellcheck'
 # End of prerequisites
 brew 'homebrew/php/composer'
 brew 'homebrew/php/php70'
