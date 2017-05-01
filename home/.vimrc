@@ -14,6 +14,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'flazz/vim-colorschemes'
 Plug 'junegunn/fzf', {'dir': '~/.fzf', 'do': './install -all'}
 Plug 'scrooloose/nerdtree'
+Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
 

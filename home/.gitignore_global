@@ -52,3 +52,7 @@ tags
 ############################
 **/*.xcuserdatad
 *.xcscmblueprint
+
+# Folder used for VS Code #
+###########################
+.vscode
