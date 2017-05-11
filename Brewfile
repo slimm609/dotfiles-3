@@ -35,6 +35,8 @@ brew 'shellcheck'
 brew 'n'
 brew 'elixir'
 brew 'mysql'
+brew 'mycli'
+brew 'pgcli'
 # Prerequisites
 brew 'libpng'
 brew 'jpeg'
