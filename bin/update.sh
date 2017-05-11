@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 sudo softwareupdate -i -a
+brew update
 brew bundle
 npm install npm -g
 npm update -g
