@@ -66,6 +66,3 @@ eval "$(hub alias -s)"
 
 # Alias very useful trash npm package to t
 alias t="trash"
-
-# Alias for sourcing virtual env wrapper
-alias loadvirtualenv="source /usr/local/bin/virtualenvwrapper.sh"
