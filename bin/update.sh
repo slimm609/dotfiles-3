@@ -4,8 +4,7 @@ sudo softwareupdate -i -a
 brew update
 brew bundle
 
-npm install npm -g
-npm update -g
+cat Yarnfile | xargs yarn global add
 
 # This will install gems in the ruby gems folder
 bundle install
