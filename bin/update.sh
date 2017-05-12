@@ -7,8 +7,10 @@ brew bundle
 npm install npm -g
 npm update -g
 
-gem update --system
-gem update
+# This will install gems in the ruby gems folder
+bundle install
+
+# Update RVM
 rvm get stable --ignore-dotfiles
 
 # Update requirements
