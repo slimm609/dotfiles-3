@@ -6,8 +6,8 @@ brew bundle
 
 cat Yarnfile | xargs yarn global add
 
-# This will install gems in the ruby gems folder
-bundle install
+# This will update and install all gems to the latest versions
+bundle update
 
 # Update RVM
 rvm get stable --ignore-dotfiles
