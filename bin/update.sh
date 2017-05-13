@@ -2,7 +2,7 @@
 sudo softwareupdate -i -a
 
 brew update
-brew bundle
+brew bundle --verbose
 
 cat Yarnfile | xargs yarn global add
 
