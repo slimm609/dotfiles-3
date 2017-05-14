@@ -17,5 +17,5 @@ PATH="$HOME/.local/bin:$PATH"
 PATH="$HOME/Library/Android/sdk/tools:$PATH"
 PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
 
-# Add yarn bin folder
-PATH="$HOME/.yarn/bin:$PATH"
+# Add Go bin folder to path
+PATH="$GOPATH/bin:$PATH"
