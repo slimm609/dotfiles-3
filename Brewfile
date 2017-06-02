@@ -36,6 +36,7 @@ brew 'elixir'
 brew 'mysql'
 brew 'mycli'
 brew 'pgcli'
+brew 'heroku'
 # Prerequisites
 brew 'libpng'
 brew 'jpeg'
