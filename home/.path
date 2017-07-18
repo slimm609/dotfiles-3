@@ -19,3 +19,5 @@ PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
 
 # Add Go bin folder to path
 PATH="$GOPATH/bin:$PATH"
+
+PATH="$HOME/.fastlane/bin:$PATH"
