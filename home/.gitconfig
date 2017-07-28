@@ -45,6 +45,7 @@
   l = log --graph --decorate --pretty=oneline --abbrev-commit
   cd = checkout
   unstage = reset HEAD --
+  brmv = "! git branch --no-color | grep -v master | grep -v ^* | xargs git branch -D"
 [apply]
   whitespace = warn
 [commit]
