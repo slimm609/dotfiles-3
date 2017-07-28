@@ -46,6 +46,7 @@
   cd = checkout
   unstage = reset HEAD --
   brmv = "! git branch --no-color | grep -v master | grep -v ^* | xargs git branch -D"
+  wipe = checkout -- .
 [apply]
   whitespace = warn
 [commit]
