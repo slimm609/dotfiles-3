@@ -36,6 +36,7 @@
   up = "!f() { git fetch --all && git pull $1 $2 --autostash; }; f"
   b = branch 
   com = commit
+  d = diff
   a = add
   s = status -s
   c = clone
