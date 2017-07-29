@@ -52,7 +52,7 @@
   whitespace = warn
 [commit]
   template = ~/.git-message-template
-  gpgsign = false
+  gpgsign = true
 [pager]
   diff = diff-so-fancy | less --tabs=4 -RFX
   show = diff-so-fancy | less --tabs=4 -RFX
