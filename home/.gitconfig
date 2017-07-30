@@ -35,19 +35,17 @@
 [alias]
   up = "!f() { git fetch --all && git pull $1 $2 --autostash; }; f"
   b = branch 
-  com = commit
+  co = commit
   d = diff
   a = add
   s = status -s
   c = clone
   p = push
   pf = push --force-with-lease
-  wip = commit -am "WIP"
   l = log --graph --decorate --pretty=oneline --abbrev-commit
   cd = checkout
-  unstage = reset HEAD --
+  uns = reset HEAD --
   brmv = "! git branch --no-color | grep -v master | grep -v ^* | xargs git branch -D"
-  wipe = checkout -- .
 [apply]
   whitespace = warn
 [commit]
