@@ -37,10 +37,12 @@
   b = branch 
   co = commit
   d = diff
+  dc = diff --cached
   a = add
   s = status -s
   c = clone
   p = push
+  r = remote
   pf = push --force-with-lease
   l = log --graph --decorate --pretty=oneline --abbrev-commit
   cd = checkout
