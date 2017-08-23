@@ -18,8 +18,7 @@ brew 'httpie'
 brew 'hub'
 brew 'pinentry-mac'
 brew 'vim', args: ['with-override-system-vi']
-brew 'node', args: ['without-npm']
-brew 'yarn'
+brew 'node' 
 brew 'zsh'
 brew 'zsh-completions'
 brew 'grep'

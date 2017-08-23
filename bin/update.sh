@@ -4,7 +4,7 @@ sudo softwareupdate -i -a
 brew update
 brew bundle --verbose
 
-cat Yarnfile | xargs yarn global add
+cat Npmfile | xargs npm i -g
 
 # This will update and install all gems to the latest versions
 bundle update
