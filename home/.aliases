@@ -62,3 +62,5 @@ eval "$(hub alias -s)"
 alias t="trash"
 
 alias c="cat"
+
+alias co="composer"
