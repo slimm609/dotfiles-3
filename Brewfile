@@ -76,7 +76,7 @@ cask 'virtualbox'
 cask 'franz'
 cask '1password'
 cask 'dotnet'
-cask 'visual-studio'
 cask 'gpgtools'
+cask 'datagrip'
 mas "Pocket", id: 568494494
 mas "Xcode", id: 497799835
