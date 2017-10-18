@@ -34,6 +34,7 @@
   helper = osxkeychain
 [alias]
   up = "!f() { git fetch --all && git pull $1 $2 --autostash; }; f"
+  pr= "!f() { if [ $# -eq 0 ]; then hub pull-request; else git checkoutpr $@; fi }; f"
   b = branch 
   co = commit
   coa = commit --amend
