@@ -10,7 +10,7 @@ git clone git@github.com:tj/git-extras.git ~/Development/Applications/git-extras
 CURRENT_DIR=`pwd`
 
 cd ~/Development/Applications/git-extras
-make install BINS="git-pr git-release git-feature git-bug"
+make install BINS="git-pr git-release git-feature git-bug git-create-branch"
 
 # Rename git-pr to git-checkoutpr
 mv /usr/local/bin/git-pr /usr/local/bin/git-checkoutpr
