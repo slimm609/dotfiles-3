@@ -62,5 +62,6 @@ eval "$(hub alias -s)"
 alias t="trash"
 
 alias c="cat"
-
 alias co="composer"
+alias gup="g up upstream master"
+alias be="bundle exec"
