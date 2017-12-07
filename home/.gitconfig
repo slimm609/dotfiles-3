@@ -50,6 +50,11 @@
   cd = checkout
   uns = reset HEAD --
   brmv = "! git branch --no-color | grep -v master | grep -v ^* | xargs git branch -D"
+  rei = rebase -i
+  re = rebase
+  rec = rebase --continue
+  rea = rebase --abort
+  res = rebase --skip
 [apply]
   whitespace = warn
 [commit]
