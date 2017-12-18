@@ -190,9 +190,7 @@ function cb() {
 }
 
 function xc() {
-  shopt -s nullglob
-  FILES_TO_OPEN=(*.xcworkspace)
-  FILES_TO_OPEN+=(*.xcodeproj)
+  FILES_TO_OPEN=({*.xcworkspace,*.xcodeproj})
 
   if [ "${#FILES_TO_OPEN[@]}" -gt 0 ]; then
     open -a /Applications/Xcode.app "${FILES_TO_OPEN[0]}" --args -ApplePersistenceIgnoreState YES;
