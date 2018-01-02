@@ -1,5 +1,5 @@
 #!/usr/bin/env zsh
-git clone --recursive https://github.com/Eriner/zim.git ${ZDOTDIR:-${HOME}}/.zim
+git clone --recursive https://github.com/zimfw/zimfw.git ${ZDOTDIR:-${HOME}}/.zim
 
 setopt EXTENDED_GLOB
 for template_file ( ${ZDOTDIR:-${HOME}}/.zim/templates/* ); do
