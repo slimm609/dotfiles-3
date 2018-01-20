@@ -30,6 +30,7 @@ brew 'n'
 brew 'heroku'
 brew 'mas'
 brew 'tig'
+brew 'dark-mode'
 # Prerequisites
 brew 'libpng'
 brew 'jpeg'
@@ -75,5 +76,6 @@ cask 'vlc'
 cask 'visual-studio-code'
 cask 'rambox'
 cask 'gpg-suite'
+cask 'vanilla'
 mas "Pocket", id: 568494494
 mas "Xcode", id: 497799835
