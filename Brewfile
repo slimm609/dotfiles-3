@@ -73,5 +73,6 @@ cask 'vlc'
 cask 'visual-studio-code'
 cask 'rambox'
 cask 'gpg-suite'
+cask 'insomnia'
 mas "Pocket", id: 568494494
 mas "Xcode", id: 497799835
