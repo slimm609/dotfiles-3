@@ -12,7 +12,6 @@ brew 'git'
 brew 'docker'
 brew 'openssl'
 brew 'git-fixup'
-brew 'httpie'
 brew 'hub'
 brew 'pinentry-mac'
 brew 'vim', args: ['with-override-system-vi']
