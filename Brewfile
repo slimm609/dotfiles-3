@@ -31,6 +31,7 @@ brew 'mas'
 brew 'tig'
 brew 'python@2'
 brew 'bitrise'
+brew 'stow'
 # Prerequisites
 brew 'openssl@1.1'
 brew 'libpng'
