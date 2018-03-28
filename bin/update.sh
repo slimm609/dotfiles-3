@@ -6,9 +6,6 @@ brew bundle --verbose
 
 cat Npmfile | xargs npm i -g
 
-# This will update and install all gems to the latest versions
-bundle update
-
 # Update RVM
 rvm get stable --ignore-dotfiles
 
