@@ -13,7 +13,7 @@ install:
 	# Install deps defined in Npmfile
 	cat Npmfile | xargs npm i -g
 	# Symlink the dotfiles to home folder
-	stow home
+	stow -v home
 	# Set default shell
 	chsh -s /bin/zsh
 
