@@ -7,9 +7,9 @@ install:
 	# Get all vim plugins
 	vim +'PlugInstall --sync' +qall &> /dev/null
 	# Setup all dependencies
-	install/install-deps.sh
+	-install/install-deps.sh
 	# Install deps defined in Brewfile
-	brew update && brew bundle --verbose
+	-brew update && brew bundle --verbose
 	# Install deps defined in Npmfile
 	cat Npmfile | xargs npm i -g
 	# Symlink the dotfiles to home folder
