@@ -8,7 +8,7 @@ brew 'boost'
 brew 'coreutils'
 brew 'curl'
 brew 'git'
-brew 'docker'
+brew 'docker', args: ['overwrite']
 brew 'openssl'
 brew 'git-fixup'
 brew 'hub'
