@@ -1,7 +1,7 @@
 .PHONY: install
 install:
 	# Install homebrew
-	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+	/usr/bin/ruby -e `curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install`
 	# Get all of the submodules
 	git submodule update --init --recursive
 	# Get all vim plugins
@@ -21,4 +21,13 @@ bootstrap:
 	install/macos.sh
 
 uninstall:
-	ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
+	# Uninstall homebrew
+	ruby -e `curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall`
+	# Remove RVM
+	rvm implode --force
+	# Remove development applications folder
+	rm -rf ~/Development/Applications
+	# Unlink dotfiles
+	stow -vD home
+	# Set default shell to bash
+	chsh -s /bin/bash
