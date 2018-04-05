@@ -65,4 +65,4 @@ cask 'insomnia'
 mas "Pocket", id: 568494494
 mas "Xcode", id: 497799835
 mas "Helium", id: 1054607607
-mas "Next Meeting", id: 101747084
+mas "Next Meeting", id: 1017470484
