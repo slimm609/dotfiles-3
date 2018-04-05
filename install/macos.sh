@@ -525,6 +525,11 @@ defaults write com.google.Chrome.canary DisablePrintPreview -bool true
 defaults write com.google.Chrome PMPrintingExpandedStateForPrint2 -bool true
 defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool true
 
+# Set DNS Servers for Wi-Fi to Cloudflare's
+networksetup -setdnsservers Wi-Fi empty
+networksetup -setdnsservers Wi-Fi 1.1.1.1 1.0.0.1
+killall -HUP mDNSResponder
+
 ###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
