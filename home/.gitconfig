@@ -76,6 +76,7 @@
   cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
 [diff]
   tool = Kaleidoscope
+	colorMoved = dimmed_zebra
 [difftool]
   prompt = false
 [mergetool "Kaleidoscope"]
