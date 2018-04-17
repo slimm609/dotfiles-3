@@ -46,6 +46,7 @@ brew 'openssl'
 # End of prerequisites
 brew 'composer'
 brew 'php'
+brew 'scrcpy'
 cask 'alfred'
 cask 'bitwarden'
 cask 'evernote'
