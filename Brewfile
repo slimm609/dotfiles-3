@@ -63,6 +63,8 @@ cask 'visual-studio-code'
 cask 'rambox'
 cask 'gpg-suite'
 cask 'insomnia'
+cask 'nvalt'
+cask 'google-backup-and-sync'
 mas "Pocket", id: 568494494
 mas "Xcode", id: 497799835
 mas "Helium", id: 1054607607
