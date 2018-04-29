@@ -65,3 +65,5 @@ alias c="cat"
 alias co="composer"
 alias gup="g up upstream master"
 alias be="bundle exec"
+
+alias sdb="encfs ~/Dropbox/Joey/Secure ~/Secure && open ~/Secure"
