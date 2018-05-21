@@ -35,7 +35,7 @@ set shiftwidth=2 " for when <TAB> is pressed at the beginning of a line
 
 " --- Plugin-specific settings ---
 " --- flazz/vim-colorschemes settings ---
-colorscheme twilight256
+colorscheme dracula
 
 " --- bling/vim-airline settings ---
 " Always show statusbar
