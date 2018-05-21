@@ -42,7 +42,7 @@ colorscheme dracula
 set laststatus=2
 
 " Change airline theme
-let g:airline_theme='wombat'
+let g:airline_theme='bubblegum'
 
 " Fancy arrow symbols
 let g:airline_powerline_fonts=1
