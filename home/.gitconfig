@@ -33,6 +33,8 @@
 [credential]
   helper = osxkeychain
 [alias]
+  feature = "!f() { git checkout -b feature/$1; }; f"
+  bug = "!f() { git checkout -b bug/$1; }; f"
   up = "!f() { git fetch --all && git pull $1 $2 --autostash; }; f"
   pr= "!f() { if [ $# -eq 0 ]; then hub pull-request; else git checkoutpr $@; fi }; f"
   b = branch 
