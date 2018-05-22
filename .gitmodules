@@ -1,3 +1,12 @@
 [submodule "home/.zsh/.zim"]
 	path = home/.zsh/.zim
 	url = git://github.com/zimfw/zimfw.git
+[submodule "dracula/sublime"]
+	path = dracula/sublime
+	url = git@github.com:dracula/sublime.git
+[submodule "dracula/jetbrains"]
+	path = dracula/jetbrains
+	url = git@github.com:dracula/jetbrains.git
+[submodule "dracula/iterm"]
+	path = dracula/iterm
+	url = git@github.com:dracula/iterm.git
