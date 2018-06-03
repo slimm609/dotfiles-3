@@ -10,3 +10,6 @@
 [submodule "dracula/iterm"]
 	path = dracula/iterm
 	url = git@github.com:dracula/iterm.git
+[submodule "bat/syntaxes/Packages"]
+	path = bat/syntaxes/Packages
+	url = git@github.com:sublimehq/Packages.git
