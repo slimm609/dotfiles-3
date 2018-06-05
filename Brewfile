@@ -10,7 +10,7 @@ brew 'git'
 brew 'docker', args: ['overwrite']
 brew 'openssl'
 brew 'git-fixup'
-brew 'hub', args: ['devel']
+brew 'hub'
 brew 'pinentry-mac'
 brew 'vim', args: ['with-override-system-vi']
 brew 'node' 
