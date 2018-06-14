@@ -1,5 +1,4 @@
-tap 'caskroom/cask'
-tap 'caskroom/versions'
+tap 'homebrew/cask'
 tap 'homebrew/bundle'
 tap 'homebrew/core'
 cask 'osxfuse'
@@ -46,7 +45,7 @@ brew 'gmp'
 brew 'openssl'
 # End of prerequisites
 brew 'composer'
-brew 'php'
+brew 'php@7.1'
 brew 'scrcpy'
 cask 'android-studio'
 cask 'intellij-idea-ce'
@@ -72,6 +71,7 @@ cask 'stack'
 cask 'xquartz'
 cask 'inkscape'
 cask 'the-unarchiver'
+cask 'slack'
 mas "Pocket", id: 568494494
 mas "Xcode", id: 497799835
 mas "Helium", id: 1054607607
