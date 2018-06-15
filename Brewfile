@@ -72,7 +72,6 @@ cask 'xquartz'
 cask 'inkscape'
 cask 'the-unarchiver'
 cask 'slack'
-mas "Pocket", id: 568494494
 mas "Xcode", id: 497799835
 mas "Helium", id: 1054607607
 mas "Next Meeting", id: 1017470484
