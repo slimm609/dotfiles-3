@@ -12,7 +12,7 @@ brew 'git-fixup'
 brew 'hub'
 brew 'pinentry-mac'
 brew 'vim', args: ['with-override-system-vi']
-brew 'node' 
+brew 'node', args: ['without-npm'] 
 brew 'zsh'
 brew 'zsh-completions'
 brew 'grep'
