@@ -4,7 +4,7 @@ sudo softwareupdate -i -a
 brew update
 brew bundle --verbose
 
-cat Npmfile | xargs npm i -g
+cat Yarnfile | xargs yarn global add
 
 # Update RVM
 rvm get stable --ignore-dotfiles
