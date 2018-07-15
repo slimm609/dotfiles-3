@@ -27,6 +27,7 @@ brew 'python@2'
 brew 'bitrise'
 brew 'stow'
 brew 'bat'
+brew 'neovim'
 # Prerequisites
 brew 'openssl@1.1'
 brew 'libpng'
