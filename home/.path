@@ -20,4 +20,5 @@ PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
 # Add Go bin folder to path
 PATH="$GOPATH/bin:$PATH"
 
-PATH="$HOME/Development/Applications/flutter/bin:$PATH"
+# Add ~/bin folder to path
+PATH="$PATH:$HOME/bin"
