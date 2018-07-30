@@ -69,8 +69,6 @@ cask 'insomnia'
 cask 'nvalt'
 cask 'google-backup-and-sync'
 cask 'stack'
-cask 'xquartz'
-cask 'inkscape'
 cask 'the-unarchiver'
 cask 'slack'
 mas "Xcode", id: 497799835
