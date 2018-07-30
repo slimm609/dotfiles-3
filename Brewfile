@@ -70,7 +70,6 @@ cask 'nvalt'
 cask 'google-backup-and-sync'
 cask 'stack'
 cask 'the-unarchiver'
-cask 'slack'
 mas "Xcode", id: 497799835
 mas "Helium", id: 1054607607
 mas "Next Meeting", id: 1017470484
