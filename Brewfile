@@ -11,7 +11,6 @@ brew 'openssl'
 brew 'git-fixup'
 brew 'hub'
 brew 'pinentry-mac'
-brew 'vim', args: ['with-override-system-vi']
 brew 'node', args: ['without-npm'] 
 brew 'zsh'
 brew 'zsh-completions'
@@ -71,6 +70,6 @@ cask 'google-backup-and-sync'
 cask 'stack'
 cask 'the-unarchiver'
 cask 'omnidisksweeper'
+cask 'itsycal'
+cask 'homebrew/cask-versions/android-studio-preview'
 mas "Xcode", id: 497799835
-mas "Helium", id: 1054607607
-mas "Next Meeting", id: 1017470484
