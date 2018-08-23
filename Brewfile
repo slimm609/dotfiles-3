@@ -71,5 +71,5 @@ cask 'stack'
 cask 'the-unarchiver'
 cask 'omnidisksweeper'
 cask 'itsycal'
-cask 'homebrew/cask-versions/android-studio-preview'
+cask 'manta'
 mas "Xcode", id: 497799835
