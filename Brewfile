@@ -69,4 +69,5 @@ cask 'stack'
 cask 'the-unarchiver'
 cask 'omnidisksweeper'
 cask 'simplenote'
+cask 'skype'
 mas "Xcode", id: 497799835
