@@ -41,7 +41,7 @@ eval "$(hub alias -s)"
 # Alias very useful trash npm package to t
 alias t="trash"
 
-alias c="cat"
+alias c="bat"
 alias co="composer"
 alias gup="g up upstream master"
 alias be="bundle exec"
