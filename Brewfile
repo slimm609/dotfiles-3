@@ -73,4 +73,5 @@ cask 'simplenote'
 cask 'skype'
 cask 'font-fira-code'
 cask 'osxfuse'
+cask 'deluge'
 mas "Xcode", id: 497799835
