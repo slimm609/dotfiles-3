@@ -46,7 +46,7 @@ brew 'gmp'
 brew 'openssl'
 # End of prerequisites
 brew 'composer'
-brew 'php@7.1'
+brew 'php'
 brew 'scrcpy'
 brew 'yarn'
 cask 'android-studio'
