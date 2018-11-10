@@ -74,4 +74,6 @@ cask 'skype'
 cask 'font-fira-code'
 cask 'osxfuse'
 cask 'deluge'
+cask 'sequel-pro'
+cask 'vagrant-manager'
 mas "Xcode", id: 497799835
