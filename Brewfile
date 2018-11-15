@@ -76,4 +76,5 @@ cask 'osxfuse'
 cask 'deluge'
 cask 'sequel-pro'
 cask 'vagrant-manager'
+cask 'apptrap'
 mas "Xcode", id: 497799835
