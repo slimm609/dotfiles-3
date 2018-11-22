@@ -72,4 +72,5 @@ cask 'osxfuse'
 cask 'deluge'
 cask 'vagrant-manager'
 cask 'apptrap'
+cask 'dropbox'
 mas "Xcode", id: 497799835
