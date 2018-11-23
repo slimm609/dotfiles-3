@@ -73,4 +73,5 @@ cask 'transmission'
 cask 'vagrant-manager'
 cask 'apptrap'
 cask 'dropbox'
+cask 'karabiner-elements'
 mas "Xcode", id: 497799835
