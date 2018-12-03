@@ -5,7 +5,6 @@ brew 'boost'
 brew 'coreutils'
 brew 'curl'
 brew 'git'
-brew 'docker', args: ['overwrite']
 brew 'openssl'
 brew 'git-fixup'
 brew 'hub'
@@ -70,4 +69,5 @@ cask 'transmission'
 cask 'apptrap'
 cask 'dropbox'
 cask 'karabiner-elements'
+cask 'dropbox'
 mas "Xcode", id: 497799835
