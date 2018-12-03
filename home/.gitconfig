@@ -58,6 +58,8 @@
   rec = rebase --continue
   rea = rebase --abort
   res = rebase --skip
+  fap = "! git ls-files -m -o --exclude-standard | fzf -m --print0 | xargs -0 -o -t git add -p"
+  fa = "! git ls-files -m -o --exclude-standard | fzf -m --print0 | xargs -0 git add"
 [apply]
   whitespace = warn
 [commit]
