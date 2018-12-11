@@ -74,4 +74,5 @@ cask 'karabiner-elements'
 cask 'dropbox'
 cask 'docker'
 cask 'blender'
+cask 'figma'
 mas "Xcode", id: 497799835
