@@ -85,6 +85,9 @@ sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo Hos
 # Restart automatically if the computer freezes
 sudo systemsetup -setrestartfreeze on
 
+# Disable Notification Center and remove the menu bar icon
+launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist 2> /dev/null
+
 # Check for software updates daily, not just once per week
 defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 
@@ -356,6 +359,9 @@ defaults write com.apple.dock autohide -bool true
 # Make Dock icons of hidden applications translucent
 defaults write com.apple.dock showhidden -bool true
 
+# Don't show recent applications in Dock
+defaults write com.apple.dock show-recents -bool false
+
 # Disable the Launchpad gesture (pinch with thumb and three fingers)
 defaults write com.apple.dock showLaunchpadGestureEnabled -int 0
 
@@ -529,6 +535,41 @@ defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool t
 networksetup -setdnsservers Wi-Fi empty
 networksetup -setdnsservers Wi-Fi 1.1.1.1 1.0.0.1
 killall -HUP mDNSResponder
+
+###############################################################################
+# Transmission.app                                                            #
+###############################################################################
+
+# Use `~/Documents/Torrents` to store incomplete downloads
+defaults write org.m0k.transmission UseIncompleteDownloadFolder -bool true
+defaults write org.m0k.transmission IncompleteDownloadFolder -string "${HOME}/Documents/Torrents"
+
+# Use `~/Downloads` to store completed downloads
+defaults write org.m0k.transmission DownloadLocationConstant -bool true
+
+# Don’t prompt for confirmation before downloading
+defaults write org.m0k.transmission DownloadAsk -bool false
+defaults write org.m0k.transmission MagnetOpenAsk -bool false
+
+# Don’t prompt for confirmation before removing non-downloading active transfers
+defaults write org.m0k.transmission CheckRemoveDownloading -bool true
+
+# Trash original torrent files
+defaults write org.m0k.transmission DeleteOriginalTorrent -bool true
+
+# Hide the donate message
+defaults write org.m0k.transmission WarningDonate -bool false
+# Hide the legal disclaimer
+defaults write org.m0k.transmission WarningLegal -bool false
+
+# IP block list.
+# Source: https://giuliomac.wordpress.com/2014/02/19/best-blocklist-for-transmission/
+defaults write org.m0k.transmission BlocklistNew -bool true
+defaults write org.m0k.transmission BlocklistURL -string "http://john.bitsurge.net/public/biglist.p2p.gz"
+defaults write org.m0k.transmission BlocklistAutoUpdate -bool true
+
+# Randomize port on launch
+defaults write org.m0k.transmission RandomPort -bool true
 
 ###############################################################################
 # Kill affected applications                                                  #
