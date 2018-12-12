@@ -1,6 +1,7 @@
 tap 'homebrew/cask'
 tap 'homebrew/bundle'
 tap 'homebrew/core'
+tap 'caskroom/versions'
 brew 'boost'
 brew 'coreutils'
 brew 'curl'
@@ -76,4 +77,5 @@ cask 'blender'
 cask 'figma'
 cask 'iterm2'
 cask 'onyx'
+cask 'java8'
 mas "Xcode", id: 497799835
