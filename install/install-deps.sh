@@ -17,3 +17,7 @@ bat cache --init --source ~/.dotfiles/bat
 # Setup shell
 sudo echo "/usr/local/bin/zsh" >> /etc/shells
 chsh -s /usr/local/bin/zsh
+
+# Install settings sync plugin for VSCode
+# This will allow me to easily get all my settings for VSCode
+code --install-extension Shan.code-settings-sync
