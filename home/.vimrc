@@ -1,5 +1,6 @@
 " Gotta be first
 set nocompatible
+set shada="NONE"
 
 call plug#begin('~/.vim/plugged')
 
