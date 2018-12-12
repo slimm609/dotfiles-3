@@ -1,7 +1,7 @@
 [user]
   email = jkaan@users.noreply.github.com
   name = Joey Kaan
-  signingkey = 1B1EEFD39B701739
+  signingkey = 69E2170FD7CC5B62
 [core]
   excludesfile = ~/.gitignore_global
   editor = nvim
