@@ -1,3 +1,6 @@
+# Install homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
 # Create folder which is used to store applications
 mkdir -p ~/Development/Applications
 
