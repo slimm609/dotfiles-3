@@ -23,3 +23,6 @@ plugged
 
 # History file of zsh
 .zhistory
+
+# Folder that Neovim uses to generate shada files
+home/.local/share/nvim/shada/
