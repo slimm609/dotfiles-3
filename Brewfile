@@ -74,4 +74,6 @@ cask 'dropbox'
 cask 'docker'
 cask 'blender'
 cask 'figma'
+cask 'iterm2'
+cask 'onyx'
 mas "Xcode", id: 497799835

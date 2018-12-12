@@ -10,3 +10,6 @@
 [submodule "dracula/iterm"]
 	path = dracula/iterm
 	url = git@github.com:dracula/iterm.git
+[submodule "dracula/alfred"]
+	path = dracula/alfred
+	url = https://github.com/dracula/alfred
