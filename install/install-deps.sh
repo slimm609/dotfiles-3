@@ -13,3 +13,7 @@ curl -sSL https://get.rvm.io | bash -s stable --ruby
 
 # Setup bat
 bat cache --init --source ~/.dotfiles/bat
+
+# Setup shell
+sudo echo "/usr/local/bin/zsh" >> /etc/shells
+chsh -s /usr/local/bin/zsh
