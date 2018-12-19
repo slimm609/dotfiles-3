@@ -430,6 +430,21 @@ sudo mdutil -E / > /dev/null
 # Don’t display the annoying prompt when quitting iTerm
 defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 
+# Show per-pane title bar with split panes turn off
+defaults write com.googlecode.iterm2 ShowPaneTitles -bool false
+
+# Dim minimal amount when split panes
+defaults write com.googlecode.iterm2 SplitPaneDimmingAmount -string "0.1"
+
+# Do not show window number
+defaults write com.googlecode.iterm2 WindowNumber -bool false
+
+# Hide scrollbar
+defaults write com.googlecode.iterm2 HideScrollbar -bool true
+
+# Hide current job name
+defaults write com.googlecode.iterm2 JobName -bool false
+
 ###############################################################################
 # Time Machine                                                                #
 ###############################################################################
