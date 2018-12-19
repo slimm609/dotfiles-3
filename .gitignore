@@ -26,3 +26,6 @@ plugged
 
 # Folder that Neovim uses to generate shada files
 home/.local/share/nvim/shada/
+
+# Folder used by Neovim for logs
+home/.local/share/nvim/log
