@@ -29,3 +29,6 @@ home/.local/share/nvim/shada/
 
 # Folder used by Neovim for logs
 home/.local/share/nvim/log
+
+# Folder used by Heroku for config
+home/.local/share/heroku/
