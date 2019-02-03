@@ -22,3 +22,6 @@ PATH="$GOPATH/bin:$PATH"
 
 # Add ~/bin folder to path
 PATH="$PATH:$HOME/bin"
+
+# Add Python's users bin folder to path
+PATH="$PATH:$HOME/Library/Python/2.7/bin"
