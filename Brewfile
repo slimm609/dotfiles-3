@@ -29,6 +29,7 @@ brew 'exa'
 brew 'neovim'
 brew 'bitwarden-cli'
 brew 'fzf'
+brew 'mas'
 # Prerequisites
 brew 'openssl@1.1'
 brew 'libpng'
@@ -75,3 +76,7 @@ cask 'figma'
 cask 'iterm2'
 cask 'onyx'
 cask 'java8'
+cask 'brave-browser'
+cask 'dozer'
+mas 'Xcode', id: 497799835
+mas 'OhMyStar2' id: 1218642292
