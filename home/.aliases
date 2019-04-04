@@ -52,3 +52,4 @@ alias ll="exa -alh --git"
 alias la="exa -a"
 alias g=git
 alias b=brew
+alias dc=docker-compose
