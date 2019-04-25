@@ -580,6 +580,9 @@ defaults write org.m0k.transmission WarningDonate -bool false
 # Hide the legal disclaimer
 defaults write org.m0k.transmission WarningLegal -bool false
 
+# Do not show thumbnail when taking screenshot
+defaults write com.apple.screencapture show-thumbnail -bool false
+
 # IP block list.
 # Source: https://giuliomac.wordpress.com/2014/02/19/best-blocklist-for-transmission/
 defaults write org.m0k.transmission BlocklistNew -bool true
@@ -595,7 +598,7 @@ defaults write org.m0k.transmission RandomPort -bool true
 
 for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" \
 	"Dock" "Finder" "Google Chrome" "Google Chrome Canary" "Mail" "Messages" \
-	"Opera" "Photos" "Safari" "SystemUIServer" "Terminal"; do
+	"Opera" "Photos" "Safari" "SystemUIServer" "Terminal" "Screenshot"; do
 	killall "${app}" &> /dev/null
 done
 echo "Done. Note that some of these changes require a logout/restart to take effect."
