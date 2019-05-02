@@ -26,3 +26,6 @@ plugged
 
 # Folder used for configuration by quite some applications
 home/.local/share/
+
+# Folder used for nvm config
+home/.nvm

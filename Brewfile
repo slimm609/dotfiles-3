@@ -29,6 +29,7 @@ brew 'neovim'
 brew 'bitwarden-cli'
 brew 'fzf'
 brew 'mas'
+brew 'nvm'
 # Prerequisites
 brew 'openssl@1.1'
 brew 'libpng'
