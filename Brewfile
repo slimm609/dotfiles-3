@@ -77,4 +77,6 @@ cask 'java8'
 cask 'brave-browser'
 cask 'dozer'
 cask 'time-out'
+cask 'ngrok'
+cask 'zeplin'
 mas 'OhMyStar2', id: 1218642292
