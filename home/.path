@@ -16,6 +16,7 @@ PATH="$HOME/.local/bin:$PATH"
 # Add android tools to path
 PATH="$HOME/Library/Android/sdk/tools:$PATH"
 PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
+PATH="$HOME/Library/Android/sdk/emulator:$PATH"
 
 # Add Go bin folder to path
 PATH="$GOPATH/bin:$PATH"
