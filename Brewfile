@@ -81,4 +81,5 @@ cask 'time-out'
 cask 'ngrok'
 cask 'zeplin'
 cask 'alfred'
+cask 'discord'
 mas 'OhMyStar2', id: 1218642292
