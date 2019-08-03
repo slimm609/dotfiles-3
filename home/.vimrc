@@ -15,6 +15,7 @@ Plug 'flazz/vim-colorschemes'
 Plug 'junegunn/fzf', {'dir': '~/.fzf', 'do': './install -all'}
 Plug 'scrooloose/nerdtree'
 Plug 'ryanoasis/vim-devicons'
+Plug 'dracula/vim', {'as': 'dracula'}
 
 call plug#end()
 
