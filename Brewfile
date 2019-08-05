@@ -10,7 +10,6 @@ brew 'openssl'
 brew 'git-fixup'
 brew 'hub'
 brew 'pinentry-mac'
-brew 'node', args: ['without-npm'] 
 brew 'zsh'
 brew 'zsh-completions'
 brew 'grep'
