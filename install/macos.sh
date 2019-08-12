@@ -592,6 +592,12 @@ defaults write org.m0k.transmission BlocklistAutoUpdate -bool true
 # Randomize port on launch
 defaults write org.m0k.transmission RandomPort -bool true
 
+##########################################################
+# iTunes                                                 #
+##########################################################
+# Don't open iTunes if device is connected
+defaults write com.apple.iTunesHelper ignore-devices 1
+
 ###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################

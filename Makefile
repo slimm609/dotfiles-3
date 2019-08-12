@@ -15,6 +15,9 @@ install:
 	# Install RVM
 	gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
 	curl -sSL https://get.rvm.io | bash -s stable --ruby --ignore-dotfiles
+	# Setup version of Python
+	pyenv install 2.7.16
+	pyenv global 2.7.16
 	# Install deps defined in Yarnfile
 	cat Yarnfile | xargs yarn global add
 	# Setup bat
