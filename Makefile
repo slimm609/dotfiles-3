@@ -16,8 +16,10 @@ install:
 	gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
 	curl -sSL https://get.rvm.io | bash -s stable --ruby --ignore-dotfiles
 	# Setup version of Python
-	pyenv install 2.7.16
-	pyenv global 2.7.16
+	pyenv install 3.7.4
+	pyenv global 3.7.4
+	# Install deps defined in requirements.txt
+	pip install -r requirements.txt
 	# Install deps defined in Yarnfile
 	cat Yarnfile | xargs yarn global add
 	# Setup bat
@@ -36,6 +38,16 @@ install:
 	$(info 		1. Run bootstrap task (Setup Full Disk Access for terminal though))
 	$(info 		2. Setup a SSH key for GitHub: ssh-keygen -t rsa -C emailgoes@here.nl)
 	$(info 		3. Setup a GPG key: gpg --full-generate-key)
+	$(info    4. Authenticate with gcalcli by running: gcalcli list)
+	$(info    5. Might want to install the go home script for a work laptop: make install install_gohome_script)
+
+install_gohome_script:
+	cp login-calendar/com.joeykaan.gohome.plist ~/Library/LaunchAgents/
+	launchctl load ~/Library/LaunchAgents/com.joeykaan.gohome.plist
+
+uninstall_gohome_script:
+	launchctl unload ~/Library/LaunchAgents/com.joeykaan.gohome.plist
+	rm -rf ~/Library/LaunchAgents/com.joeykaan.gohome.plist
 
 bootstrap:
 	install/macos.sh
@@ -45,6 +57,9 @@ uninstall:
 	chsh -s /bin/bash
 	# Unlink dotfiles
 	-stow -vvD home
+	# Uninstall Python version and default to system version
+	pyenv uninstall -f 3.7.4
+	pyenv global system
 	# Uninstall deps defined in Yarnfile
 	cat Yarnfile | xargs yarn global remove
 	# Remove RVM

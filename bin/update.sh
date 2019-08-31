@@ -6,6 +6,8 @@ brew bundle --verbose
 
 cat Yarnfile | xargs yarn global add
 
+pip install -r requirements.txt
+
 # Update RVM
 rvm get stable --ignore-dotfiles
 
