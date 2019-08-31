@@ -18,19 +18,21 @@ install:
 	# Setup version of Python
 	pyenv install 3.7.4
 	pyenv global 3.7.4
+	# Make sure that the global version is actually setup by initing pyenv in this shell.
+	eval "$(pyenv init -)"
 	# Install deps defined in requirements.txt
 	pip install -r requirements.txt
 	# Install deps defined in Yarnfile
 	cat Yarnfile | xargs yarn global add
 	# Setup bat
-	bat cache --init --source ~/.dotfiles/bat
+	bat cache --build --source ~/.dotfiles/bat
 	# Install settings sync plugin for VSCode
 	# This will allow me to easily get all my settings for VSCode
 	code --install-extension Shan.code-settings-sync
 	# Symlink the dotfiles to home folder
 	stow -vv home
 	# Set default shell
-	sudo echo "/usr/local/bin/zsh" >> /etc/shells
+	echo "/usr/local/bin/zsh" | sudo tee -a /etc/shells
 	chsh -s /usr/local/bin/zsh
 	# Print bye-bye message
 	$(info Done setting up your Mac :))
