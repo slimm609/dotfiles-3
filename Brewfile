@@ -83,7 +83,6 @@ cask 'dozer'
 cask 'time-out'
 cask 'ngrok'
 cask 'zeplin'
-cask 'alfred'
 cask 'discord'
 cask 'itsycal'
 mas 'OhMyStar2', id: 1218642292
