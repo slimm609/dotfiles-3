@@ -18,10 +18,6 @@ install:
 	# Setup version of Python
 	pyenv install 3.7.4
 	pyenv global 3.7.4
-	# Make sure that the global version is actually setup by initing pyenv in this shell.
-	eval "$(pyenv init -)"
-	# Install deps defined in requirements.txt
-	pip install -r requirements.txt
 	# Install deps defined in Yarnfile
 	cat Yarnfile | xargs yarn global add
 	# Setup bat
@@ -44,6 +40,7 @@ install:
 	$(info    5. Might want to install the go home script for a work laptop: make install install_gohome_script)
 
 install_gohome_script:
+	pip install gcalcli
 	cp login-calendar/com.joeykaan.gohome.plist ~/Library/LaunchAgents/
 	launchctl load ~/Library/LaunchAgents/com.joeykaan.gohome.plist
 
