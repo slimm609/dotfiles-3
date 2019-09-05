@@ -38,6 +38,7 @@ install:
 	$(info 		3. Setup a GPG key: gpg --full-generate-key)
 	$(info    4. Authenticate with gcalcli by running: gcalcli list)
 	$(info    5. Might want to install the go home script for a work laptop: make install install_gohome_script)
+	$(info     6. Put laptop/user-specific Git config in ~/.gitconfig-user. For example GPG key)
 
 install_gohome_script:
 	pip install gcalcli

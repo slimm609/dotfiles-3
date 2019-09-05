@@ -29,3 +29,6 @@ home/.local/share/
 
 # Folder used for nvm config
 home/.nvm
+
+# Folder user git config file for, for example GPG key reference
+home/.gitconfig-user
