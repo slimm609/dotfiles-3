@@ -5,7 +5,11 @@
    <key>Label</key>
    <string>com.joeykaan.gohome</string>
    <key>ProgramArguments</key>
-   <array><string>/Users/j.kaan/.dotfiles/login-calendar/add_event.sh</string></array>
+   <array>
+      <string>sh</string>
+      <string>-c</string>
+      <string>"$HOME/.dotfiles/login-calendar/add_event.sh"</string>
+   </array>
    <key>RunAtLoad</key>
    <true/>
 </dict>
