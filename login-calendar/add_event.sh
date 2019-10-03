@@ -1,4 +1,7 @@
-#!/bin/bash
+#!/usr/local/bin/zsh
+
+# Make sure gcalcli can be found
+source $ZDOTDIR/.zshrc
 
 DATE_TO_ADD_EVENT=$(date -v "+8H" -v "+30M" +"%D %T")
 CURRENT_DAY=$(date +"%D")

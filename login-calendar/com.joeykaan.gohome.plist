@@ -6,7 +6,7 @@
    <string>com.joeykaan.gohome</string>
    <key>ProgramArguments</key>
    <array>
-      <string>sh</string>
+      <string>/usr/local/bin/zsh</string>
       <string>-c</string>
       <string>"$HOME/.dotfiles/login-calendar/add_event.sh"</string>
    </array>
