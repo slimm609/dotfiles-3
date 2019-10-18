@@ -100,4 +100,6 @@
 [rebase]
 	autosquash = true
 [fetch]
-	prune = true
+  prune = true
+[credential]
+  helper = netlify
