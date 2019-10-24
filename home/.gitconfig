@@ -91,10 +91,10 @@
   trustExitCode = true
 [mergetool]
   prompt = false
-[url "git@github.com:"]
-  insteadOf = "https://github.com/"
-  pushInsteadOf = "https://github.com/"
-  pushInsteadOf = "git://github.com/"
+#[url "git@github.com:"]
+#  insteadOf = "https://github.com/"
+#  pushInsteadOf = "https://github.com/"
+#  pushInsteadOf = "git://github.com/"
 [pull]
 	rebase = true
 [rebase]
