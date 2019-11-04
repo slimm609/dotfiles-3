@@ -39,7 +39,7 @@
   f = "!f() { git checkout -b feature/$1; }; f"
   bu = "!f() { git checkout -b bug/$1; }; f"
   up = "!f() { git fetch --multiple upstream origin && git pull $1 $2 --autostash; }; f"
-  prq = "!f() { git pf && hub pull-request -a jkaan; }; f"
+  prq = "!f() { git pf && hub pull-request -o -a jkaan; }; f"
   b = branch 
   co = commit
   coa = commit --amend
