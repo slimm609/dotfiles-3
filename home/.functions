@@ -251,3 +251,7 @@ gr() {
   cut -d$'\t' -f1
 }
 
+# Function for upimg to copy to paste board
+function u() {
+  upimg $1 --raw | tr -d '\n' | pbcopy
+}
