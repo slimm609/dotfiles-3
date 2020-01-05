@@ -32,3 +32,6 @@ home/.nvm
 
 # Folder user git config file for, for example GPG key reference
 home/.gitconfig-user
+
+# Folder to ignore the .zim folder since this is installed with the Makefile
+home/.zsh/.zim
