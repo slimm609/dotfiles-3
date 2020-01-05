@@ -2,6 +2,8 @@
 install:
 	# Install homebrew
 	curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install | ruby
+	# Install Zim
+	curl -fsSL https://raw.githubusercontent.com/zimfw/install/develop/install.zsh | zsh
 	# Get all of the submodules
 	git submodule update --init --recursive
 	# Create folder for development applications
@@ -66,5 +68,7 @@ uninstall:
 	-rvm implode --force
 	# Remove development applications folder
 	rm -rf ~/Development/Applications
+	# Remove zim
+	rm -rf $ZDOTDIR/.zim
 	# Uninstall homebrew
 	curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall | ruby
