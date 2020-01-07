@@ -13,3 +13,7 @@ Z_DIR=~/Development/Applications/z
 echo "Updating Z"
 git --git-dir=${Z_DIR}/.git --work-tree=$Z_DIR pull origin master
 
+# Update Zim modules
+zimfw update
+# Update Zim itself
+zimfw upgrade
