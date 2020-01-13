@@ -27,8 +27,6 @@ install:
 	# Install settings sync plugin for VSCode
 	# This will allow me to easily get all my settings for VSCode
 	code --install-extension Shan.code-settings-sync
-	# Install Poet
-	curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python
 	# Symlink the dotfiles to home folder
 	stow -vv home
 	# Set default shell
