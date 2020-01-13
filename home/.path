@@ -32,3 +32,6 @@ PATH="$PATH:$HOME/Development/Applications/flutter/bin"
 
 # Add Haskell to path
 source "$HOME/.ghcup/env"
+
+# Add Poets bin folder to path
+PATH="$PATH:$HOME/.poetry/bin"
