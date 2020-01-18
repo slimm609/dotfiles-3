@@ -6,7 +6,7 @@
   excludesfile = ~/.gitignore_global
   editor = nvim
   whitespace = trailing-space,space-before-tab
-  hookspath = /Users/joeykaan/.dotfiles/githooks
+  hookspath = ~/.dotfiles/githooks
 [include]
   path = ~/.gitconfig-user
 [push]
