@@ -57,3 +57,6 @@ tags
 # Folder used for VS Code #
 ###########################
 .vscode
+
+# Git hook in folder in Android project to ignore
+.githooks/prepare-commit-msg
