@@ -2,16 +2,16 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "85f0a9c7998b8144e19fccc791d022f0090f2f98"
+        "revision": "66261e7bce01490865599d23bad0ce9e8d300ec7"
       },
       "homebrew/bundle": {
-        "revision": "04a8b37bbdd9bb801a5fde72fd82232846cf2b69"
+        "revision": "0796bb72fa0b6615cdb51d0ec07ca405e4550870"
       },
       "homebrew/core": {
-        "revision": "72ac35e596fde689234cf5c407c3febe680415e2"
+        "revision": "45d4545fa5b0df45caec8d4bb9afd08e11e929e7"
       },
       "homebrew/cask-versions": {
-        "revision": "89a9d19882f427d623fdb0df84b846188ad28cc0"
+        "revision": "c7487871178116e0bfe7d133a8b691511022a397"
       },
       "homebrew/services": {
         "revision": "9ddb42a9add6845053d098ffc4c568b55b70776e"
@@ -311,22 +311,22 @@
         "bottle": false
       },
       "bitrise": {
-        "version": "1.39.0",
+        "version": "1.39.1",
         "bottle": {
           "cellar": ":any_skip_relocation",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/bitrise-1.39.0.catalina.bottle.tar.gz",
-              "sha256": "254256691400b0d9e4f813638a9617a498f7923b6f5c6a0c1a130d1130baf01a"
+              "url": "https://homebrew.bintray.com/bottles/bitrise-1.39.1.catalina.bottle.tar.gz",
+              "sha256": "05ae35055e3914b57f1a47f6ffa3345b5035d869d28e02f090e2903cdf917d08"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/bitrise-1.39.0.mojave.bottle.tar.gz",
-              "sha256": "60bed9ed097c30fb17e60e1b33a3b71dcf8166a76c5db2cd2a93c78a2c0788ea"
+              "url": "https://homebrew.bintray.com/bottles/bitrise-1.39.1.mojave.bottle.tar.gz",
+              "sha256": "105779fed99609d51a8bdb9d32d447f8084f02d865d575af694d9d50801f490c"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/bitrise-1.39.0.high_sierra.bottle.tar.gz",
-              "sha256": "6c48063043f4190fa470b85c87a2206d32aa848fcd488c8329319662f4cfba26"
+              "url": "https://homebrew.bintray.com/bottles/bitrise-1.39.1.high_sierra.bottle.tar.gz",
+              "sha256": "63b5599e1ab68a99bd628950e195f72be55c34bf2bc56772ca7f74447bbfdd81"
             }
           }
         }
@@ -1066,7 +1066,7 @@
         }
       },
       "omnidisksweeper": {
-        "version": "1.12",
+        "version": "1.12.1",
         "options": {
           "full_name": "omnidisksweeper"
         }
@@ -1195,7 +1195,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.2.6",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "72ac35e596fde689234cf5c407c3febe680415e2",
+        "Homebrew/homebrew-core": "45d4545fa5b0df45caec8d4bb9afd08e11e929e7",
         "CLT": "11.0.33.8",
         "Xcode": "11.2.1",
         "macOS": "10.15.3"
