@@ -2,16 +2,16 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "304c56101b50e99bed4eeea64a7572765f180726"
+        "revision": "0f42653c124b94859f6af1254fdd3ddad83d4f69"
       },
       "homebrew/bundle": {
         "revision": "20e7cee19a59595d72a1b1886bd57fc69d97506e"
       },
       "homebrew/core": {
-        "revision": "a4f6f410f106de646ee16912584a8dc9fa381062"
+        "revision": "89d93309ba2bc0e931d1ed4e6ee968a7a3af0b47"
       },
       "homebrew/cask-versions": {
-        "revision": "91638f31d0ea7ee91bce2629c8e57763adcaae26"
+        "revision": "14be17def0889e3a491eb08f430d9e79c9324b05"
       },
       "homebrew/services": {
         "revision": "984f3a2528961b01a5481af6d79dfd6a7c903995"
@@ -1177,7 +1177,7 @@
         }
       },
       "joplin": {
-        "version": "1.0.195",
+        "version": "1.0.197",
         "options": {
           "full_name": "joplin"
         }
@@ -1195,10 +1195,10 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.2.11",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "a4f6f410f106de646ee16912584a8dc9fa381062",
+        "Homebrew/homebrew-core": "89d93309ba2bc0e931d1ed4e6ee968a7a3af0b47",
         "CLT": "11.0.33.8",
         "Xcode": "11.2.1",
-        "macOS": "10.15.3"
+        "macOS": "10.15.4"
       },
       "mojave": {
         "HOMEBREW_VERSION": "2.2.5",
