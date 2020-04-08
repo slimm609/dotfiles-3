@@ -1,7 +1,7 @@
 .PHONY: install
 install:
 	# Install homebrew
-	curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install | ruby
+	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 	# Install Zim
 	curl -fsSL https://raw.githubusercontent.com/zimfw/install/develop/install.zsh | zsh
 	# Get all of the submodules
