@@ -17,6 +17,8 @@ install:
 	# Install RVM
 	gpg --keyserver hkp://ipv4.pool.sks-keyservers.net:80 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
 	curl -sSL https://get.rvm.io | bash -s stable --ruby --ignore-dotfiles
+	# Install NVM
+	curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 	# Setup version of Python
 	pyenv install 3.7.4
 	pyenv global 3.7.4
@@ -66,6 +68,8 @@ uninstall:
 	cat Yarnfile | xargs yarn global remove
 	# Remove RVM
 	-rvm implode --force
+	# Remove NVM
+	rm -rf ~/.nvm
 	# Remove development applications folder
 	rm -rf ~/Development/Applications
 	# Remove zim
