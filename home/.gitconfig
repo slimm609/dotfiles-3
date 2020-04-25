@@ -42,7 +42,7 @@
   prq = "!f() { git pf && hub pull-request -o -a jkaan; }; f"
   b = branch 
   co = commit
-  coa = commit --amend
+  coa = commit -a
   d = diff
   dc = diff --cached
   a = add
