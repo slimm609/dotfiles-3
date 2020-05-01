@@ -36,3 +36,6 @@ zmodule zsh-users/zsh-syntax-highlighting
 # zsh-users/zsh-history-substring-search must be sourced after zsh-users/zsh-syntax-highlighting
 zmodule zsh-users/zsh-history-substring-search
 
+# forgit - utility that connects fzf and git
+zmodule wfxr/forgit
+

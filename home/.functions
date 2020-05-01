@@ -255,3 +255,13 @@ function gr {
 function u {
   upimg $1 --raw | tr -d '\n' | pbcopy
 }
+
+function t {
+  if [[ "$#" -eq 0 ]]; then
+    local files
+    files=$(ls | fzf --multi)
+    echo $files | xargs trash
+    else
+    trash "$@"
+    fi
+}

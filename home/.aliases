@@ -38,9 +38,6 @@ command -v sha1sum > /dev/null || alias sha1sum="shasum"
 # Alias Github's Hub to Git
 eval "$(hub alias -s)"
 
-# Alias very useful trash npm package to t
-alias t="trash"
-
 alias c="bat"
 alias co="composer"
 alias gup="g up upstream master"
